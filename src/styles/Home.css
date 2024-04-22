@@ -1,0 +1,39 @@
+#screen1 h1 {
+  font-size: 150px;
+  line-height: 80%;
+}
+#underlineBar {
+  border-radius: 10px;
+  background: rgb(221, 63, 34);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(221, 63, 34, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(221, 63, 34, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(221, 63, 34, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dd3f22",endColorstr="#ffffff",GradientType=1);
+  height: 20px;
+  width: 100%;
+}
+#screen2{
+  font-family: mohave;
+}
+#eventImage{
+  opacity: 1;
+  transition: opacity 2s 0s;
+}
+.fade-in{
+  opacity: 1;
+}
+.fade-out{
+  opacity: 0;
+}
