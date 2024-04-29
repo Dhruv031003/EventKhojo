@@ -1,7 +1,14 @@
 import { useState } from "react"
 import "../styles/Home.css"
+import Contact from "./Contact"
 import vintage_tape from "../assets/vintage_tape.png"
 import mic_chair from "../assets/mic_chair.png";
+import host_events from "../assets/host_event.png"
+import ticket_system from "../assets/ticket_system.png"
+import manage_event from "../assets/manage_event.png"
+import sponsors_partners from "../assets/sponsors_partners.png"
+import find_event from "../assets/find_event.png"
+import buy_ticket from "../assets/buy_ticket.png"
 
 export default function Home() {
     const aStyle = "mt-8 hover:underline hover:decoration-[#DD3F22] underline-offset-4 w-fit"
@@ -22,13 +29,13 @@ export default function Home() {
         <>
             <div id="screen1" className="hScreen flex flex-col justify-around items-between">
                 <div className="basis-2/3 mx-auto flex flex-col justify-center items-center">
-                    <img src={vintage_tape} alt="" width="120px" className="absolute top-32 left-1/4"/>
-                    <img src={mic_chair} alt="" width="150px" className="absolute bottom-1/4 right-48"/>
-                    <h1 className="z-10 w-fit londrinaSketch text-[#DD3F22]">EVENTKHOJO</h1>
-                    <h2 className="z-10 w-fit pompiere text-4xl ">Explore, Engage, Enjoy- Your Event Companion</h2>
+                    <img src={vintage_tape} alt="" className="w-2/12 md:w-1/12 absolute top-1/3 right-3/4 sm:top-1/4" />
+                    <img src={mic_chair} alt="" className="w-1/6 absolute md:bottom-1/4 left-2/3 bottom-1/3" />
+                    <h1 className="z-10 w-fit londrinaSketch text-[#DD3F22] text-5xl lg:text-[150px] md:text-9xl sm:text-7xl">EVENTKHOJO</h1>
+                    <h2 className="z-10 w-fit pompiere text-xl md:text-4xl lg-text-5xl">Explore, Engage, Enjoy- Your Event Companion</h2>
                 </div>
-                <div className="mx-auto w-2/3 flex flex-col justify-center items-center">
-                    <h3 className="pompiere text-xl text-center">Welcome to EVENTKHOJO, where every event is an adventure waiting to happen!
+                <div className="p-5 lg:p-0 mx-auto w-full lg:w-2/3 flex flex-col justify-center items-center">
+                    <h3 className="pompiere text-xs md:text-lg lg:text-xl text-center">Welcome to EVENTKHOJO, where every event is an adventure waiting to happen!
                         Whether you're a host or a guest, our platform offers seamless ticketing solutions and a treasure trove of events to explore.
                         Join the excitement, sell tickets effortlessly, and let the magic of events unfold with us.
                     </h3>
@@ -54,6 +61,36 @@ export default function Home() {
                     <img id="eventImage" src={imgSrc} width={'550px'} alt="" />
                 </div>
             </div>
+            <div className="my-12">
+                <h1 className="underline decoration-1 underline-offset-4 font-bold pompiere text-center text-4xl">FEATURES</h1>
+                <div className="flex flex-wrap justify-center">
+                    <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
+                        <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Host Events</h3>
+                        <img src={host_events} alt="" />
+                    </div>
+                    <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
+                    <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Ticketing System</h3>
+                        <img src={ticket_system} alt="" />
+                    </div>
+                    <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
+                    <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Manage Events Easily</h3>
+                        <img src={manage_event} alt="" />
+                    </div>
+                    <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
+                    <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Customize Sponsors & Partners</h3>
+                        <img src={sponsors_partners} alt="" />
+                    </div>
+                    <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
+                    <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Events Around You</h3>
+                        <img src={find_event} alt="" />
+                    </div>
+                    <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
+                    <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Buy Tickets Easily</h3>
+                        <img src={buy_ticket} alt="" />
+                    </div>
+                </div>
+            </div>
+            <Contact></Contact>
         </>
 
     )

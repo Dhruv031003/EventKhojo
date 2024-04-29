@@ -36,9 +36,9 @@ function Footer() {
         <div>
           <h3 className='text-3xl mb-4'>Quicklinks</h3>
           <ul>
-            <li>asdkoaksdol</li>
-            <li>asdasodk</li>
-            <li>asdfafad</li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Cookies Policy</a></li>
           </ul>
         </div>
         <div>
@@ -50,7 +50,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className='pompiere'>
+      <div className='pompiere mt-3 text-xs md:text-base'>
         ©Copyright 2024 | Eventkhojo All Rights Reserved
       </div>
     </footer>

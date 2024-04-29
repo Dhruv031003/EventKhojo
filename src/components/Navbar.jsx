@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 export default function Navbar() {
     return (
-        <header className="sticky top-0 w-full">
+        <header className=" z-50 sticky top-0 w-full">
             <nav id="Navbar" className="w-full bg-white">
                 <div className="flex items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
                     <div className="inline-flex items-center space-x-2">
