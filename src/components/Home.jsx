@@ -62,30 +62,30 @@ export default function Home() {
                 </div>
             </div>
             <div className="my-12">
-                <h1 className="underline decoration-1 underline-offset-4 font-bold pompiere text-center text-4xl">FEATURES</h1>
-                <div className="flex flex-wrap justify-center">
+                <h1 className="underline decoration-1 underline-offset-4 font-semibold mohave text-center text-4xl">FEATURES</h1>
+                <div className="flex flex-wrap justify-center pompiere font-semibold">
                     <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
-                        <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Host Events</h3>
+                        <h3 className="text-center text-xl underline underline-offset-4">Host Events</h3>
                         <img src={host_events} alt="" />
                     </div>
                     <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
-                    <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Ticketing System</h3>
+                    <h3 className="text-center text-xl underline underline-offset-4">Ticketing System</h3>
                         <img src={ticket_system} alt="" />
                     </div>
                     <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
-                    <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Manage Events Easily</h3>
+                    <h3 className="text-center text-xl underline underline-offset-4">Manage Events Easily</h3>
                         <img src={manage_event} alt="" />
                     </div>
                     <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
-                    <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Customize Sponsors & Partners</h3>
+                    <h3 className="text-center text-xl underline underline-offset-4">Customize Sponsors & Partners</h3>
                         <img src={sponsors_partners} alt="" />
                     </div>
                     <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
-                    <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Events Around You</h3>
+                    <h3 className="text-center text-xl underline underline-offset-4">Events Around You</h3>
                         <img src={find_event} alt="" />
                     </div>
                     <div className="m-5 p-3 w-3/4 lg:w-1/4 md:w-1/3 sm:w-3/4 border shadow-xl rounded-lg">
-                    <h3 className="text-center font-bold pompiere text-xl underline underline-offset-4">Buy Tickets Easily</h3>
+                    <h3 className="text-center text-xl underline underline-offset-4">Buy Tickets Easily</h3>
                         <img src={buy_ticket} alt="" />
                     </div>
                 </div>
