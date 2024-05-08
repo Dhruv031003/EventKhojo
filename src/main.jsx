@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './styles/index.css'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
-import {Waitlist,Layout,Home,ErrorPage,Contact} from "./components"
+import {Waitlist,Layout,Home,ErrorPage,Contact, WaitlistSuccess} from "./components"
 
 const Router=createBrowserRouter([
   {
@@ -20,6 +20,14 @@ const Router=createBrowserRouter([
     {
       path:"/contact",
       element:<Contact/>
+    },
+    {
+      path:"/errorPage",
+      element:<ErrorPage/>
+    },
+    {
+      path:"/waitlistSuccess",
+      element:<WaitlistSuccess/>
     }
   ]
   }

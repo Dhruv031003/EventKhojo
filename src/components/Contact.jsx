@@ -91,7 +91,7 @@ function Contact() {
               </div>
               <button
                 type="button"
-                class="w-full rounded-md bg-[#DD3F22] transition-all duration-200 transform px-3 py-2 text-md font-semibold text-white hover:shadow-md hover:bg-white hover:shadow-[#DD3F22] hover:text-[#DD3F22] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DD3F22] active:bg-[#dd3e22be] active:text-white"
+                className="w-full rounded-md bg-[#DD3F22] transition-all duration-200 transform px-3 py-2 text-md font-semibold text-white hover:shadow-md hover:bg-white hover:shadow-[#DD3F22] hover:text-[#DD3F22] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DD3F22] active:bg-[#dd3e22be] active:text-white"
               >
                 Submit
               </button>

@@ -5,5 +5,6 @@ import Waitlist from './Waitlist'
 import Layout from './Layout'
 import ErrorPage from './ErrorPage'
 import Contact from './Contact'
+import WaitlistSuccess from './WaitlistSuccess'
 
-export {Footer,Home,Navbar,Waitlist,Layout,ErrorPage,Contact}
+export {Footer,Home,Navbar,Waitlist,Layout,ErrorPage,Contact,WaitlistSuccess};
