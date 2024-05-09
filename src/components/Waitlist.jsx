@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom';
 import { Success, Error } from './Alert';
 
 function Waitlist() {
